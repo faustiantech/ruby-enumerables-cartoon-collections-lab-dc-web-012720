@@ -1,6 +1,6 @@
 def roll_call_dwarves(source)# code an argument here
   # Your code here
-  source.map {}
+  source.each {|b| puts b}
 end
 
 def summon_captain_planet# code an argument here
