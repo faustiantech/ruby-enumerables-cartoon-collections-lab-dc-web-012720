@@ -27,8 +27,7 @@ def find_the_cheese(source)# code an argument here
     if cheese_types.include?(word)
       binding.pry
       return word
-    else
-      return nil
   end
+  return nil
 end
 end
