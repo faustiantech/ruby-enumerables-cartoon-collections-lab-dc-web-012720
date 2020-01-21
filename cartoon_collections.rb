@@ -11,9 +11,9 @@ end
 def long_planeteer_calls(source)# code an argument here
   # Your code here
   source.reduce do |word|
-    word.length > 4? 
+    word.length > 4 ? return true 
   end
-  
+  return false
 end
 
 def find_the_cheese# code an argument here
