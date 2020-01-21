@@ -21,5 +21,8 @@ end
 def find_the_cheese(source)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  for 
+  source.each do |word|
+    if cheese_types.include?(word)
+      return word
+  end
 end
