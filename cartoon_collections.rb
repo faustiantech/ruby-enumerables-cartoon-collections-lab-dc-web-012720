@@ -24,6 +24,7 @@ def find_the_cheese(source)# code an argument here
   if source&cheese_types
     return nil
     else 
-      return source&cheese_types.join
+      arr = source&cheese_types
+      return arr[0]
     end
 end
