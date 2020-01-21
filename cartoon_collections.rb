@@ -25,5 +25,6 @@ def find_the_cheese(source)# code an argument here
     if cheese_types.include?(word)
       return word
   end
+  nil
 end
 end
