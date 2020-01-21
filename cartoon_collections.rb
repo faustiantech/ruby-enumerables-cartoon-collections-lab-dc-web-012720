@@ -1,3 +1,5 @@
+require 'pry'
+
 def roll_call_dwarves(source)# code an argument here
   # Your code here
   source.each_with_index {|b,i| puts "#{i+1}. #{b}"}
@@ -23,6 +25,7 @@ def find_the_cheese(source)# code an argument here
   cheese_types = ["cheddar", "gouda", "camembert"]
   source.each do |word|
     if cheese_types.include?(word)
+      binding.pry
       return word
     else
       return nil
