@@ -21,10 +21,5 @@ end
 def find_the_cheese(source)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if source&cheese_types
-    return nil
-    else 
-      arr = source&cheese_types
-      return arr[0]
-    end
+  for 
 end
