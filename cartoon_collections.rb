@@ -10,7 +10,9 @@ end
 
 def long_planeteer_calls(source)# code an argument here
   # Your code here
-  
+  source.reduce do
+    
+  end
   
 end
 
