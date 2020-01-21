@@ -24,5 +24,5 @@ def find_the_cheese(source)# code an argument here
   if source&cheese_types == []
     return nil
     else 
-      return source&cheese_types[0]]
+      return source&cheese_types[0]
 end
